@@ -4,13 +4,13 @@ import java.util.Arrays;
 
 public class Receita {
 	
-	int id;
-	String nome;
-	Categoria categoria;
-	double tempoDePreparo;
-	Rendimento rendimento;
-	Ingredientes[] ingrediente = new Ingredientes[5];
-	Preparo[] preparo = new Preparo[5];
+	private int id;
+	private String nome;
+	private Categoria categoria;
+	private double tempoDePreparo;
+	private Rendimento rendimento;
+	private Ingredientes[] ingrediente = new Ingredientes[5];
+	private Preparo[] preparo = new Preparo[5];
 	
 	public Receita(int id,String nome, Categoria categoria, double tempoDePreparo, Rendimento rendimento) {
 		super();

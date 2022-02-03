@@ -1,7 +1,7 @@
 package com.principal;
 
 public class Preparo {
-	String descricao;
+	private String descricao;
 
 	public Preparo(String descricao) {
 		super();
