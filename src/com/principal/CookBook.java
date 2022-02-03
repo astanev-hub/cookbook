@@ -19,7 +19,7 @@ public class CookBook {
 		Receita receita1 = new Receita(1, "Suco de Laranja", Categoria.DOCE, 10, rendimento1);
 		receita1.setPreparo(preparo1);
 		receita1.setIngrediente(ingredientes1);
-		
+
 		System.out.println(receita1.toString());
 		
 	}
