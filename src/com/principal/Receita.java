@@ -53,5 +53,4 @@ public class Receita {
 				+ "\nModo de Preparo: " + Arrays.toString(preparo).replaceAll("[\\[\\](){}\\,]","");
 	}
 
-	
 }
